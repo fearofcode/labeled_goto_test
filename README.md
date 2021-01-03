@@ -4,6 +4,8 @@ The article mentions "simple benchmarking" indicating they are about 25% faster 
 and it is not indicated what kind of benchmarking was done. This is intended to be a litle less simple, although
 the actual code being benchmarked is not realistic.
 
+- Install clang. The setup here assumes clang 10. I also tried with gcc 9.3 and saw similar results.
+
 - Install conan package manager. See https://docs.conan.io/en/latest/installation.html
 
 - 
