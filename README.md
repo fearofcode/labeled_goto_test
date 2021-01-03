@@ -36,3 +36,6 @@ Benchmark                Time             CPU   Iterations
 BM_SwitchTable        76.6 ns         76.6 ns      9030936
 BM_ComputedGoto       54.8 ns         54.8 ns     12533042
 ```
+
+Which leads me to believe that the ~25% figure is still accurate. So it is safe to conclude that computed gotos can be faster
+and still are on more recent (late 2010s) hardware.
