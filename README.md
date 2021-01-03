@@ -1,6 +1,10 @@
-how to build:
+This repo tests whether computed gotos are faster than a simple switch table. See https://eli.thegreenplace.net/2012/07/12/computed-goto-for-efficient-dispatch-tables for more explanation.
 
-- Install conan
+The article mentions "simple benchmarking" indicating they are about 25% faster than a switch table, but that is from 2012
+and it is not indicated what kind of benchmarking was done. This is intended to be a litle less simple, although
+the actual code being benchmarked is not realistic.
+
+- Install conan package manager. See https://docs.conan.io/en/latest/installation.html
 
 - 
 ```
